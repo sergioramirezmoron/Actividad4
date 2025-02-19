@@ -1,0 +1,96 @@
+:root {
+    --background-color: rgb(182, 182, 182);
+    --header-bg-color: rgb(134, 134, 134);
+    --button-color: rgb(52, 152, 219);
+    --button-hover-color: rgb(41, 128, 185);
+    --text-color: rgb(255, 255, 255);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    padding-top: 50px;
+}
+
+header, footer {
+    background-color: var(--header-bg-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    margin: 0 auto 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: var(--header-bg-color);
+    border-radius: 8px;
+    text-align: center;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input {
+    background-color: #fff;
+}
+
+input:focus {
+    border-color: var(--button-color);
+    outline: none;
+}
+
+button {
+    background-color: var(--button-color);
+    color: var(--text-color);
+    border: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: var(--button-hover-color);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+}
+
+label i {
+    font-size: 1.2em;
+    color: var(--button-color);
+}
+
+
+
+
