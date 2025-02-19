@@ -33,7 +33,7 @@ img {
 
 .container {
     max-width: 400px;
-    margin: 130px auto;
+    margin: 1px auto;
     padding: 20px;
     background-color: var(--header-bg-color);
     border-radius: 8px;
