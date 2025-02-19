@@ -33,7 +33,7 @@ img {
 
 .container {
     max-width: 400px;
-    margin: 100px auto;
+    margin: 130px auto;
     padding: 20px;
     background-color: var(--header-bg-color);
     border-radius: 8px;
@@ -60,7 +60,6 @@ input:focus {
 button {
     background-color: var(--button-color);
     color: var(--text-color);
-    border: none;
     font-weight: bold;
 }
 
@@ -69,6 +68,7 @@ button:hover {
 }
 
 footer {
+    font-weight: bold;
     position: fixed;
     bottom: 0;
     width: 100%;
